@@ -2,7 +2,6 @@
 [Homebrew](https://brew.sh/) formulae for **Alan Technologies, Inc** packages.
 
 ## Usage
----
 Add new tap:
 ```bash
 brew tap alantech/homebrew-core
@@ -20,5 +19,4 @@ brew upgrade <formula>
 ```
 
 ## Available formulae
----
 - [anycloud](https://docs.anycloudapp.com/)
