@@ -1,5 +1,5 @@
-# Alantech - Homebrew formulae
-[Homebrew](https://brew.sh/) formulae for **Alan Technologies, Inc** packages.
+# Alan Technologies, Inc - Homebrew formulae
+[Homebrew](https://brew.sh/) formulae for _alantech_ packages.
 
 ## Usage
 Add new tap:
