@@ -13,7 +13,7 @@ class Anycloud < Formula
     # We cannot use the binary for homebrew-core
     resource "alan" do
       url "https://github.com/alantech/alan/releases/download/v0.1.32-1/alan-macos.tar.gz"
-      sha256 "dd2ac8f9f056c1ea906ed26300d9168da29c3ee0511ea43a96040fcc5f4c7ea6"
+      sha256 "8982d51b67fbddddf7686c6d2dbb91d950b51d80ac58341ed3c6b007219a54a9"
     end
   
     def install
