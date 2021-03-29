@@ -1,8 +1,8 @@
 class Alan < Formula
   desc "Autoscalable Programming Language"
   homepage "https://github.com/alantech/alan"
-  url "https://github.com/alantech/alan/releases/download/v0.1.34/alan-macos.tar.gz"
-  sha256 "1114cf7ceb5e9d2db92f2a3a38f9e05f33d9efdbb677b367a8e2405530b271e8"
+  url "https://github.com/alantech/alan/releases/download/v0.1.36/alan-macos.tar.gz"
+  sha256 "ce1867436faa4434ea75da6377ac9fcf6e4d98539096e92364fd940b7f69a300"
   license "AGPL-3.0"
 
   def install
