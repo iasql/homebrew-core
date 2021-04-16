@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update formula
-        run: ./update_formula.sh ${{ github.event.client_payload.alan_version }}
+        run: ./update_formula.sh ${{ github.event.alan_version }}
       - name: Commit files
         uses: EndBug/add-and-commit@v7
         with:
