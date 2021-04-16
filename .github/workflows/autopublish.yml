@@ -1,0 +1,21 @@
+name: autopublish
+
+on:
+  workflow_dispatch:
+    inputs:
+      alan_version:
+        description: 'Alan released version'
+        required: true
+        default: 'v0.1.36'
+
+jobs:
+  autopublish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update formula
+        run: ./update_formula.sh ${{ github.event.inputs.alan_version }}
+      - name: Commit files
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: 'Bump version'
