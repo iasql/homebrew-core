@@ -2,7 +2,7 @@ class Anycloud < Formula
   desc "Elastically scale webservers in any cloud provider"
   homepage "https://github.com/alantech/anycloud"
   url "https://github.com/alantech/alan/releases/download/v0.1.38/anycloud-macos.tar.gz"
-  sha256 "9c94f9d45a45e347e83e62fa7cee6be7bde193731078f0faa4d2a9c6f2171bf9"
+  sha256 "ed5c6d37a4cc5dd1f97a141efc60da92aff3949a222287b20dd04db8cea4dc0e"
   license "Apache-2.0"
 
   def install
