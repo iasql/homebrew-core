@@ -15,4 +15,6 @@ checksum=$(openssl sha256 anycloud-macos.tar.gz | sed 's/.*=//' | xargs)
 ## Ovewrite formula
 sed -i.bak "s/\/v.*\//\/$1\//" Formula/anycloud.rb
 sed -i.bak "s/sha256 .*/sha256 \"$checksum\"/" Formula/anycloud.rb
+
 rm Formula/*.bak
+rm *.tar.gz
