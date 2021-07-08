@@ -19,5 +19,4 @@ brew upgrade <formula>
 ```
 
 ## Available formulae
-- [x] [anycloud](https://github.com/alantech/anycloud)
 - [x] [alan](https://github.com/alantech/alan)
