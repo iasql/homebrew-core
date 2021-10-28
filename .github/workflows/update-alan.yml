@@ -1,4 +1,4 @@
-name: update
+name: update Alan
 
 on:
   workflow_dispatch:
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Update formulae
-        run: ./update_formulae.sh ${{ github.event.inputs.alan_version }}
+        run: ./update_alan_formulae.sh ${{ github.event.inputs.alan_version }}
       - name: Commit files
         uses: EndBug/add-and-commit@v7
         with:
