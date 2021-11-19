@@ -1,22 +1,19 @@
-# Alan Technologies, Inc - Homebrew formulae
-[Homebrew](https://brew.sh/) formulae for _alantech_ packages.
+# IaSQL Homebrew formulae
+[Homebrew](https://brew.sh/) formulae for the IaSQL packages.
 
 ## Usage
 Add new tap:
 ```bash
-brew tap alantech/homebrew-core
+brew tap iasql/homebrew-core
 ```
 
 Install:
 ```bash
-brew install <formula>
+brew install iasql
 ```
 
 Update:
 ```bash
 brew update
-brew upgrade <formula>
+brew upgrade iasql
 ```
-
-## Available formulae
-- [x] [alan](https://github.com/alantech/alan)

@@ -1,7 +1,7 @@
 class Iasql < Formula
   desc "Infrastructure as SQL"
   homepage "https://iasql.com"
-  url "https://github.com/alantech/iasql-releases/releases/download/v0.1.0/iasql-macos.tar.gz"
+  url "https://github.com/iasql/releases/releases/download/v0.1.0/iasql-macos.tar.gz"
   sha256 ""
 
   def install
