@@ -1,5 +1,5 @@
 # IaSQL Homebrew formulae
-[Homebrew](https://brew.sh/) formulae for the IaSQL packages.
+[Homebrew](https://brew.sh/) formulae for the IaSQL packages
 
 ## Usage
 Add new tap:
