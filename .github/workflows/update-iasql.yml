@@ -1,4 +1,4 @@
-name: update IaSQL
+name: IaSQL update
 
 on:
   workflow_dispatch:
