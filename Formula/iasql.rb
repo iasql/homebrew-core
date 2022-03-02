@@ -1,8 +1,8 @@
 class Iasql < Formula
   desc "Infrastructure as SQL"
   homepage "https://iasql.com"
-  url "https://github.com/iasql/cli/releases/download/v0.2.2/iasql-macos.tar.gz"
-  sha256 "3e6e30df93dfefea8427d5849667de68117baa01ff02c960e449e021036620af"
+  url "https://github.com/iasql/cli/releases/download/v0.2.3/iasql-macos.tar.gz"
+  sha256 "76fb35ee083803c247c2667c8a2bf9cd8907a214cc07f1db23c2f8a2b652391b"
 
   def install
     puts "Installing IaSQL..."
