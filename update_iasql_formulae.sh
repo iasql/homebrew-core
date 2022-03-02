@@ -1,7 +1,7 @@
 #!/bin/bash
 # IaSQL
 ## Download released version
-wget https://github.com/iasql/releases/releases/download/$1/iasql-macos.tar.gz
+wget https://github.com/iasql/cli/releases/download/$1/iasql-macos.tar.gz
 ## Get checksum
 checksum=$(openssl sha256 iasql-macos.tar.gz | sed 's/.*=//' | xargs)
 ## Ovewrite formula
