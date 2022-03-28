@@ -1,19 +1,3 @@
 # IaSQL Homebrew formulae
-[Homebrew](https://brew.sh/) formulae for the IaSQL packages
 
-## Usage
-Add new tap:
-```bash
-brew tap iasql/homebrew-core
-```
-
-Install:
-```bash
-brew install iasql
-```
-
-Update:
-```bash
-brew update
-brew upgrade iasql
-```
+The CLI and its homebrew formulae has been deprecated in favor of using a [dashboard](https://app.iasql.com) and [PostgreSQL functions](https://docs.iasql.com/function).
